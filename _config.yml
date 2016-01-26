@@ -1,0 +1,24 @@
+url: "http://productrally.com"
+baseurl: ""
+
+title: Product Rally
+description: "Organized Masses → Ideas Turned Real."
+
+google_analytics: "UA-62666024-6"
+
+# --- Don't need to touch anything below here (but you can if you want) --- #
+
+future: false
+timezone: "UTC"
+markdown: kramdown
+highlighter: pygments
+permalink: /:year-:month-:day-:title
+paginate: 5
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - params.json
+  
